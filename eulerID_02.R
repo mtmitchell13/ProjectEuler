@@ -15,4 +15,4 @@ fibsum <- subset(fibeven, fibeven < 4000000)
 
 x <- sum(fibsum)
 
-print(x)
+return(x)
